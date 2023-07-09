@@ -87,10 +87,11 @@ background:#f9f9fa;
  
 }
 #weatherdetails .weather-data{
-    margin-right: 11%;
+    margin: 0% 20%;
+    padding:0 15%
 }
 #weatherdetails .container-float{
-    padding: 1% 15%;
+    padding: 1% 8%;
 }
 
 .current-weather{
@@ -127,9 +128,7 @@ background:#f9f9fa;
     font-size: 1.5rem;
     margin: 20px 0;
 }
-.weather-cards{
-    
-}
+
 
 .weather-cards .card{
     list-style: none;
@@ -137,6 +136,7 @@ background:#f9f9fa;
     padding: 1.2rem 1rem;
     border-radius: 5px;
     background: #6c757d;
+    margin: 1.2rem;
 }
 
 /* .weather-cards .card img{
