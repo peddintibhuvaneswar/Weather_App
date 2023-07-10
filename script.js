@@ -19,7 +19,7 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                     <h6>${weatherItem.weather[0].description}</h6>
                 </div>`;
     } else { // HTML for the other five day forecast card
-        return `div class="card col-lg-2 col-md-4 col-sm-6">
+        return `<div class="card col-lg-2 col-md-4 col-sm-6">
                     <h3>(${weatherItem.dt_txt.split(" ")[0]})</h3>
                     <div class="icon">
                     <img src="https://openweathermap.org/img/wn/${weatherItem.weather[0].icon}@4x.png" alt="weather-icon">
